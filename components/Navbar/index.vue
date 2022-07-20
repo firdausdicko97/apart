@@ -1,22 +1,20 @@
 <template>
-<header class="header">
+  <header class="header">
     <section class="navbar">
-
-        <div class="navicon">
+      <div class="navicon">
         <img src="~/assets/navicon.png" />
-        </div>
+      </div>
 
-        <section class="nav">
-            <a href="">Home</a>
-            <a href="">Residence</a>
-            <a href="">About Us</a>
-            <a href="">Agent</a>
-            <a href="">About you</a>
-            <button>login</button>
-        </section>
-
+      <section class="nav">
+        <a href="">Home</a>
+        <a href="">Residence</a>
+        <a href="">About Us</a>
+        <a href="">Agent</a>
+        <a href="">About you</a>
+        <a href="" class="button">Login</a>
+      </section>
     </section>
-</header>
+  </header>
 </template>
 
 <script>
@@ -29,4 +27,3 @@ export default {
 @import "~/static/css/navbar.css";
 @import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap");
 </style>
-
