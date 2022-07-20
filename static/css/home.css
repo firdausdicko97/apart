@@ -1,0 +1,25 @@
+body {
+  background: #ffffff;
+}
+
+.gradient1 {
+  position: absolute;
+  width: 500px;
+  height: 700.14px;
+  left: -150px;
+  top: 100.66px;
+}
+
+.gradient2 {
+  position: absolute;
+  width: 571.08px;
+  height: 804.71px;
+  left: 230px;
+}
+
+.gradient3 {
+  position: absolute;
+  width: 571px;
+  height: 804px;
+  left: 830px;
+}
