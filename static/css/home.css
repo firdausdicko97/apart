@@ -1,25 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #ffffff;
+  margin: 0px;
 }
 
-.gradient1 {
+.gradient .gradient {
   position: absolute;
-  width: 500px;
-  height: 700.14px;
-  left: -150px;
-  top: 100.66px;
+  width: 1500px;
+  left: -50px;
+  top: 80.66px;
 }
 
-.gradient2 {
-  position: absolute;
-  width: 571.08px;
-  height: 804.71px;
-  left: 230px;
+.gradient .apart1 {
+  display: block;
+  margin-left: auto;
+  height: 845px;
+  width: 650px;
 }
 
-.gradient3 {
+.h1 {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  color: #000000;
+
+  /* Inside auto layout */
+
   position: absolute;
-  width: 571px;
-  height: 804px;
-  left: 830px;
+  left: 20%;
+  top: 20%;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  line-height: 150%;
+  font-size: 100px;
+  font-weight: 1000;
+}
+
+.sub {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-size: 26px;
+  width: 50%;
+}
+
+.search {
+  position: absolute;
+  width: 1200.89px;
+  height: 250.45px;
+  left: 0;
+  top: 500px;
+  background: #ffffff;
+  box-shadow: 0px 8.65278px 86.5278px rgba(0, 0, 0, 0.05);
+  border-radius: 25.9583px;
+}
+
+.search p {
+  font-weight: 600;
+  font-size: 24px;
+  padding: 35px;
+  font-family: "Montserrat";
+  font-style: normal;
 }
