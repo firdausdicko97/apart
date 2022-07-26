@@ -1,11 +1,11 @@
 <template>
-  <header class="header">
-    <section class="navbar">
-      <div class="navicon">
+  <header class="headers">
+    <section>
+      <div class="navicons">
         <img src="~/assets/navicon.png" />
       </div>
 
-      <section class="nav">
+      <section class="navs">
         <a href="">Home</a>
         <a href="">Residence</a>
         <a href="">About Us</a>

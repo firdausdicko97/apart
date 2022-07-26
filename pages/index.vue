@@ -1,6 +1,6 @@
 <template>
   <body>
-    <div class="container">
+    <div>
       <Navbar />
       <!-- head -->
       <section class="head">
@@ -43,5 +43,5 @@ export default {
 @import "~/static/css/home.css";
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext");
-/* @import url("https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"); */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css");
 </style>

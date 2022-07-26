@@ -1,4 +1,4 @@
-.header {
+.headers {
   position: absolute;
   width: 100%;
   height: 100px;
@@ -9,16 +9,18 @@
   opacity: 0.98;
   box-shadow: 0px 8.65278px 58.8389px rgba(0, 0, 0, 0.05);
 }
-
-.navicon img {
+.navicons {
+  padding: 10px;
+}
+.navicons img {
   position: absolute;
-  width: 45px;
-  height: 45px;
+  width: 80px;
+  height: 80px;
   left: 173.06px;
   padding: 20px;
 }
 
-.nav {
+.navs {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +32,7 @@
   flex-grow: 0;
 }
 
-.nav a {
+.navs a {
   color: #000000;
   text-decoration: none;
   font-family: "Josefin Sans";
@@ -39,7 +41,7 @@
   font-size: 20px;
 }
 
-.nav .button {
+.navs .button {
   /* Frame 2 */
 
   /* Auto layout */
