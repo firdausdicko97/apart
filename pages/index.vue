@@ -19,12 +19,91 @@
               stress
             </p>
           </section>
+          <!-- Search -->
           <section class="search">
             <p>Search the price you are looking for here</p>
+            <div class="filter">
+              <div class="filter_input">
+                <div class="input-group input-group-lg">
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-lg"
+                  />
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg"
+                      ><img src="~/assets/home_icon.png" alt=""
+                    /></span>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="filter_input">
+                <div class="input-group input-group-lg">
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-lg"
+                  />
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg"
+                      ><img src="~/assets/location.png" alt=""
+                    /></span>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="filter_input">
+                <div class="input-group input-group-lg">
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-lg"
+                  />
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg"
+                      ><img src="~/assets/harga.png" alt=""
+                    /></span>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <button
+                type="button"
+                class="btn btn-dark"
+                style="width: 150px; height: 50px"
+              >
+                Search Now
+              </button>
+            </div>
           </section>
         </section>
       </section>
       <!-- search -->
+      <!-- Value -->
+      <section class="value">
+        <!-- value 1 -->
+        <div class="value_content">
+          <p class="value_title">2100+</p>
+          <p class="value_sub">Premium House</p>
+        </div>
+        <p class="batas">|</p>
+        <!-- value 2 -->
+        <div class="value_content">
+          <p class="value_title">2000+</p>
+          <p class="value_sub">Happy Customers</p>
+        </div>
+        <p class="batas">|</p>
+        <!-- value 3 -->
+        <div class="value_content">
+          <p class="value_title">50+</p>
+          <p class="value_sub">Awards</p>
+        </div>
+      </section>
+      <!-- Value -->
     </div>
   </body>
 </template>

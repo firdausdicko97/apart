@@ -8,6 +8,9 @@ body {
   margin: 0px;
 }
 
+.head {
+  padding-bottom: 50px;
+}
 .gradient .gradient {
   position: absolute;
   width: 1500px;
@@ -31,7 +34,7 @@ body {
   /* Inside auto layout */
 
   position: absolute;
-  left: 20%;
+  left: 15%;
   top: 20%;
 }
 
@@ -52,10 +55,10 @@ body {
 
 .search {
   position: absolute;
-  width: 1200.89px;
-  height: 250.45px;
+  width: 1350px;
+  height: 230px;
   left: 0;
-  top: 500px;
+  top: 470px;
   background: #ffffff;
   box-shadow: 0px 8.65278px 86.5278px rgba(0, 0, 0, 0.05);
   border-radius: 25.9583px;
@@ -67,4 +70,60 @@ body {
   padding: 35px;
   font-family: "Montserrat";
   font-style: normal;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 15px 0 0 0;
+  justify-content: center;
+}
+
+.filter_input {
+  /* padding: 30px; */
+  width: 300px;
+  border: none;
+}
+.input-group-text {
+  order: 1px solid;
+  border-left: none;
+  background: transparent;
+}
+
+.input-group-text img {
+  width: 25px;
+}
+
+.form-control {
+  border-right: none;
+}
+
+.value {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+}
+
+.batas {
+  font-size: 50px;
+  font-weight: 300;
+  color: #6b6b6b;
+  padding: 0 55px 0 55px;
+}
+
+.value_content {
+  font-family: "Josefin Sans";
+  font-style: normal;
+}
+
+.value_title {
+  font-size: 32px;
+}
+
+.value_sub {
+  font-size: 34px;
+  color: #6b6b6b;
 }
