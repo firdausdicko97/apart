@@ -19,7 +19,7 @@
               stress
             </p>
           </section>
-          <!-- Search -->
+          <!-- Search Start -->
           <section class="search">
             <p>Search the price you are looking for here</p>
             <div class="filter">
@@ -82,8 +82,8 @@
           </section>
         </section>
       </section>
-      <!-- search -->
-      <!-- Value -->
+      <!-- search end -->
+      <!-- Value start -->
       <section class="value">
         <!-- value 1 -->
         <div class="value_content">
@@ -103,7 +103,16 @@
           <p class="value_sub">Awards</p>
         </div>
       </section>
-      <!-- Value -->
+      <!-- Value end -->
+      <!-- Popular start -->
+      <section class="popular">
+        <p class="popular_text">Popular</p>
+        <div class="popular_title">
+          <p class="section_title">Our popular residence</p>
+          <button class="explore_all">Explore all -></button>
+        </div>
+      </section>
+      <!-- Popular end -->
     </div>
   </body>
 </template>
