@@ -14,6 +14,7 @@ body {
 .gradient .gradient {
   position: absolute;
   width: 1500px;
+  height: 800px;
   left: -50px;
   top: 80.66px;
 }
@@ -55,6 +56,7 @@ body {
 
 .search {
   position: absolute;
+
   width: 1350px;
   height: 230px;
   left: 0;
@@ -126,4 +128,39 @@ body {
 .value_sub {
   font-size: 34px;
   color: #6b6b6b;
+}
+
+.popular {
+  align-items: center;
+  padding: 0 300px;
+}
+
+.popular_text {
+  font-size: 22px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.popular_title {
+  padding-top: 10px;
+  width: 1300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section_title {
+  font-size: 42px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.explore_all {
+  background-color: transparent;
+  border: none;
+  font-size: 22px;
+  font-family: "Josefin Sans";
+  font-weight: 400;
 }
