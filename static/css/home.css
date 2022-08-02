@@ -173,7 +173,7 @@ body {
 }
 .card {
   width: 390px;
-  height: 450px;
+  height: 430px;
 }
 .card-title {
   margin: 10px;
@@ -191,6 +191,31 @@ body {
   color: #989898;
 }
 
+.facility{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.facility-item{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.facility-item img{
+  width: 15px;
+  height: 20px;
+}
+
+.facility-item p{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+color: #989898;
+}
+
 .button-price {
   display: flex;
   flex-direction: row;
@@ -198,7 +223,7 @@ body {
 }
 
 .price {
-  margin-left: 25px;
+  margin-left: 30px;
   text-align: start;
   font-family: "Josefin Sans";
   font-style: normal;

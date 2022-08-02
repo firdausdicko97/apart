@@ -121,7 +121,7 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title mb-4">Card title</h5>
+                <h5 class="card-title mb-4">Garden House</h5>
                 <div class="location mb-3">
                   <img
                     src="~/assets/location.png"
@@ -130,13 +130,27 @@
                   />
                   <div class="location-detail ml-3">Jl. kebaikan no. 666</div>
                 </div>
+                <div class="facility">
+                  <div class="facility-item">
+                    <img src="~/assets/bed.png" alt="">
+                    <p class="ml-3">4 bed</p>
+                  </div>
+                  <div class="facility-item">
+                    <img src="~/assets/rectangle.png" alt="" style="width: 22px;">
+                    <p class="ml-3">10 x 10</p>
+                  </div>
+                  <div class="facility-item">
+                    <img src="~/assets/rectangle.png" alt="" style="width: 22px;">
+                    <p class="ml-3">2000m<sup>2</sup></p>
+                  </div>
+                </div>
                 <div class="button-price">
                   <button
                     type="button"
                     class="btn btn-dark"
                     style="margin: 10px; height: 35px; width: 100px"
                   >
-                    Dark
+                    Buy Now
                   </button>
                   <p class="price">Rp. 1.000.000.000</p>
                 </div>
@@ -152,14 +166,28 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title mb-4">Card title</h5>
+                <h5 class="card-title mb-4">Beer House</h5>
                 <div class="location mb-3">
                   <img
                     src="~/assets/location.png"
                     alt=""
                     style="width: 15px; height: 20px"
                   />
-                  <div class="location-detail ml-3">Jl. kebaikan no. 666</div>
+                  <div class="location-detail ml-3">Jl. Setan no. 666</div>
+                </div>
+                <div class="facility">
+                  <div class="facility-item">
+                    <img src="~/assets/bed.png" alt="">
+                    <p class="ml-3">10 bed</p>
+                  </div>
+                  <div class="facility-item">
+                    <img src="~/assets/rectangle.png" alt="" style="width: 22px;">
+                    <p class="ml-3">5 x 5</p>
+                  </div>
+                  <div class="facility-item">
+                    <img src="~/assets/rectangle.png" alt="" style="width: 22px;">
+                    <p class="ml-3">1000m<sup>2</sup></p>
+                  </div>
                 </div>
                 <div class="button-price">
                   <button
@@ -167,42 +195,59 @@
                     class="btn btn-dark"
                     style="margin: 10px; height: 35px; width: 100px"
                   >
-                    Dark
+                    Buy Now
                   </button>
-                  <p class="price">Rp. 1.000.000.000</p>
+                  <p class="price">Rp. 700.000.000</p>
                 </div>
               </div>
             </div>
           </div>
           <!--  -->
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="~/assets/popular1.png"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title mb-4">Card title</h5>
-              <div class="location mb-3">
-                <img
-                  src="~/assets/location.png"
-                  alt=""
-                  style="width: 15px; height: 20px"
-                />
-                <div class="location-detail ml-3">Jl. kebaikan no. 666</div>
-              </div>
-              <div class="button-price">
-                <button
-                  type="button"
-                  class="btn btn-dark"
-                  style="margin: 10px; height: 35px; width: 100px"
-                >
-                  Dark
-                </button>
-                <p class="price">Rp. 1.000.000.000</p>
+          <div class="popular_card">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="~/assets/popular1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-4">Farm House</h5>
+                <div class="location mb-3">
+                  <img
+                    src="~/assets/location.png"
+                    alt=""
+                    style="width: 15px; height: 20px"
+                  />
+                  <div class="location-detail ml-3">Jl. Bandung no. 999</div>
+                </div>
+                <div class="facility">
+                  <div class="facility-item">
+                    <img src="~/assets/bed.png" alt="">
+                    <p class="ml-3">4 bed</p>
+                  </div>
+                  <div class="facility-item">
+                    <img src="~/assets/rectangle.png" alt="" style="width: 22px;">
+                    <p class="ml-3">10 x 10</p>
+                  </div>
+                  <div class="facility-item">
+                    <img src="~/assets/rectangle.png" alt="" style="width: 22px;">
+                    <p class="ml-3">1000m<sup>2</sup></p>
+                  </div>
+                </div>
+                <div class="button-price">
+                  <button
+                    type="button"
+                    class="btn btn-dark"
+                    style="margin: 10px; height: 35px; width: 100px"
+                  >
+                    Buy Now
+                  </button>
+                  <p class="price">Rp. 10.000.000.000</p>
+                </div>
               </div>
             </div>
           </div>
+         <!--  -->
         </div>
       </section>
       <!-- Popular end -->
