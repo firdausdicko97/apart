@@ -143,7 +143,7 @@ body {
 }
 
 .popular_title {
-  padding-top: 10px;
+  padding: 10px;
   width: 1300px;
   display: flex;
   flex-direction: row;
@@ -163,4 +163,45 @@ body {
   font-size: 22px;
   font-family: "Josefin Sans";
   font-weight: 400;
+}
+
+.popular_card {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.card {
+  width: 390px;
+  height: 450px;
+}
+.card-title {
+  margin: 10px;
+}
+
+.location {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.location-detail {
+  font-family: "Josefin Sans";
+  font-size: normal;
+  color: #989898;
+}
+
+.button-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.price {
+  margin-left: 25px;
+  text-align: start;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
 }

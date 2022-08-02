@@ -111,6 +111,99 @@
           <p class="section_title">Our popular residence</p>
           <button class="explore_all">Explore all -></button>
         </div>
+        <!--  -->
+        <div class="popular_card">
+          <div class="popular_card">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="~/assets/popular1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-4">Card title</h5>
+                <div class="location mb-3">
+                  <img
+                    src="~/assets/location.png"
+                    alt=""
+                    style="width: 15px; height: 20px"
+                  />
+                  <div class="location-detail ml-3">Jl. kebaikan no. 666</div>
+                </div>
+                <div class="button-price">
+                  <button
+                    type="button"
+                    class="btn btn-dark"
+                    style="margin: 10px; height: 35px; width: 100px"
+                  >
+                    Dark
+                  </button>
+                  <p class="price">Rp. 1.000.000.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="popular_card">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="~/assets/popular1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-4">Card title</h5>
+                <div class="location mb-3">
+                  <img
+                    src="~/assets/location.png"
+                    alt=""
+                    style="width: 15px; height: 20px"
+                  />
+                  <div class="location-detail ml-3">Jl. kebaikan no. 666</div>
+                </div>
+                <div class="button-price">
+                  <button
+                    type="button"
+                    class="btn btn-dark"
+                    style="margin: 10px; height: 35px; width: 100px"
+                  >
+                    Dark
+                  </button>
+                  <p class="price">Rp. 1.000.000.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="~/assets/popular1.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title mb-4">Card title</h5>
+              <div class="location mb-3">
+                <img
+                  src="~/assets/location.png"
+                  alt=""
+                  style="width: 15px; height: 20px"
+                />
+                <div class="location-detail ml-3">Jl. kebaikan no. 666</div>
+              </div>
+              <div class="button-price">
+                <button
+                  type="button"
+                  class="btn btn-dark"
+                  style="margin: 10px; height: 35px; width: 100px"
+                >
+                  Dark
+                </button>
+                <p class="price">Rp. 1.000.000.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- Popular end -->
     </div>
