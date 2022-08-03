@@ -182,19 +182,19 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title mb-4">Beer House</h5>
+                <h5 class="card-title mb-4">Farm House</h5>
                 <div class="location mb-3">
                   <img
                     src="~/assets/location.png"
                     alt=""
                     style="width: 15px; height: 20px"
                   />
-                  <div class="location-detail ml-3">Jl. Setan no. 666</div>
+                  <div class="location-detail ml-3">Jl. Bandung no. 999</div>
                 </div>
                 <div class="facility">
                   <div class="facility-item">
                     <img src="~/assets/bed.png" alt="" />
-                    <p class="ml-3">10 bed</p>
+                    <p class="ml-3">4 bed</p>
                   </div>
                   <div class="facility-item">
                     <img
@@ -202,7 +202,7 @@
                       alt=""
                       style="width: 22px"
                     />
-                    <p class="ml-3">5 x 5</p>
+                    <p class="ml-3">10 x 10</p>
                   </div>
                   <div class="facility-item">
                     <img
@@ -221,7 +221,7 @@
                   >
                     Buy Now
                   </button>
-                  <p class="price">Rp. 700.000.000</p>
+                  <p class="price">Rp. 10.000.000.000</p>
                 </div>
               </div>
             </div>
@@ -279,6 +279,7 @@
               </div>
             </div>
           </div>
+          <!--  -->
           <!--  -->
         </div>
       </section>
