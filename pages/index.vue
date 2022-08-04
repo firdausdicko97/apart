@@ -108,7 +108,7 @@
       <section class="popular">
         <p class="title-small">Popular</p>
         <div class="popular_title">
-          <p class="section_title mb-3">Our popular residence</p>
+          <p class="section-title mb-3">Our popular residence</p>
           <button class="explore_all">
             Explore all
             <img
@@ -286,7 +286,7 @@
       <!-- Popular end -->
       <!-- Benefit start -->
       <section class="benefit">
-        <div class="benefit_head mb-5">
+        <div class="benefit_head mb-3">
           <p class="section_title">Why choose us</p>
           <p class="section-description">
             Our goal is at the heart of all that we do. We make our clients
@@ -294,58 +294,121 @@
           </p>
         </div>
         <!--  -->
-        <div class="benefit_card">
-          <div class="card">
-            <div class="card-body">
-              <div class="card-title">
-                <img src="~/assets/insurance.png" alt="" />
-                <p>Insurance</p>
+        <div style="margin-bottom: 100px">
+          <div class="benefit_card">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">
+                  <img src="~/assets/insurance.png" alt="" />
+                  <p>Insurance</p>
+                </div>
+                <div class="card-content">
+                  <p>
+                    This is where you can find a dream home of your choice
+                    without stThis is where you can find a dream home of your
+                    choice without stressresThis is where you
+                  </p>
+                </div>
               </div>
-              <div class="card-content">
-                <p>
-                  This is where you can find a dream home of your choice without
-                  stThis is where you can find a dream home of your choice
-                  without stressresThis is where you
-                </p>
+            </div>
+            <!--  -->
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">
+                  <img src="~/assets/insurance.png" alt="" />
+                  <p>Insurance</p>
+                </div>
+                <div class="card-content">
+                  <p>
+                    This is where you can find a dream home of your choice
+                    without stThis is where you can find a dream home of your
+                    choice without stressresThis is where you
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">
+                  <img src="~/assets/insurance.png" alt="" />
+                  <p>Insurance</p>
+                </div>
+                <div class="card-content">
+                  <p>
+                    This is where you can find a dream home of your choice
+                    without stThis is where you can find a dream home of your
+                    choice without stressresThis is where you
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <!--  -->
-          <div class="card">
-            <div class="card-body">
-              <div class="card-title">
-                <img src="~/assets/insurance.png" alt="" />
-                <p>Insurance</p>
-              </div>
-              <div class="card-content">
-                <p>
-                  This is where you can find a dream home of your choice without
-                  stThis is where you can find a dream home of your choice
-                  without stressresThis is where you
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--  -->
-          <div class="card">
-            <div class="card-body">
-              <div class="card-title">
-                <img src="~/assets/insurance.png" alt="" />
-                <p>Insurance</p>
-              </div>
-              <div class="card-content">
-                <p>
-                  This is where you can find a dream home of your choice without
-                  stThis is where you can find a dream home of your choice
-                  without stressresThis is where you
-                </p>
+          <div class="benefit_card">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">
+                  <img src="~/assets/insurance.png" alt="" />
+                  <p>Insurance</p>
+                </div>
+                <div class="card-content">
+                  <p>
+                    This is where you can find a dream home of your choice
+                    without stThis is where you can find a dream home of your
+                    choice without stressresThis is where you
+                  </p>
+                </div>
               </div>
             </div>
+            <!--  -->
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">
+                  <img src="~/assets/insurance.png" alt="" />
+                  <p>Insurance</p>
+                </div>
+                <div class="card-content">
+                  <p>
+                    This is where you can find a dream home of your choice
+                    without stThis is where you can find a dream home of your
+                    choice without stressresThis is where you
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">
+                  <img src="~/assets/insurance.png" alt="" />
+                  <p>Insurance</p>
+                </div>
+                <div class="card-content">
+                  <p>
+                    This is where you can find a dream home of your choice
+                    without stThis is where you can find a dream home of your
+                    choice without stressresThis is where you
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
           </div>
-          <!--  -->
         </div>
       </section>
       <!-- Benefit end -->
+      <!-- Team Start -->
+      <div class="team-head">
+        <p class="title-small">Our team</p>
+        <p class="section-title">Meet our team</p>
+        <p class="section-description" style="padding-bottom: 0">
+          Our goal is at the heart of all that we do. We make our
+        </p>
+        <p class="section-description">clients happiness our sole priority.</p>
+      </div>
+      <div class="team-content"></div>
+      <!-- Team End -->
     </div>
   </body>
 </template>
