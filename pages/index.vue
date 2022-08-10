@@ -407,8 +407,25 @@
         </p>
         <p class="section-description">clients happiness our sole priority.</p>
       </div>
-      <div class="team-content"></div>
+      <div class="team-content">
+        <div class="chief">
+          <img src="~/assets/ceo.png" alt="" class="team-img" />
+          <p class="team-name">Adi Purnama</p>
+          <p class="team-position">Chief of Executive Officer</p>
+        </div>
+        <div class="chief">
+          <img src="~/assets/cto.png" alt="" class="team-img" />
+          <p class="team-name">Rigen</p>
+          <p class="team-position">Chief of Technology Officer</p>
+        </div>
+        <div class="chief">
+          <img src="~/assets/ceo.png" alt="" class="team-img" />
+          <p class="team-name">Nanank</p>
+          <p class="team-position">Chief of Product Officer</p>
+        </div>
+      </div>
       <!-- Team End -->
+      <Footer />
     </div>
   </body>
 </template>
